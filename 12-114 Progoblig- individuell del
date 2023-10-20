@@ -1,0 +1,17 @@
+overlay-align("left", "bottom", rectangle(64, 56, "solid", "red"), 
+   
+  overlay-align("left", "top", rectangle(64, 56, "solid", "red"), 
+        
+    overlay-align("right", "top", rectangle(140, 56, "solid", "red"), 
+           
+      overlay-align("right", "bottom", rectangle(140, 56, "solid", "red"), 
+             
+        overlay-align("left", "bottom", rectangle(74, 68, "solid", "white"), 
+                  
+          overlay-align("left", "top", rectangle(74, 68, "solid", "white"), 
+                    
+            overlay-align("right", "top", rectangle(150, 68, "solid", "white"), 
+                         
+              overlay-align("right", "bottom", rectangle(150, 68, "solid", "white"), 
+                             
+                rectangle(250, 160, "solid", "dark-blue")))))))))
