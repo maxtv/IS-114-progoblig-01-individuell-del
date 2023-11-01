@@ -15,3 +15,7 @@ overlay-align("left", "bottom", rectangle(64, 56, "solid", "red"),
               overlay-align("right", "bottom", rectangle(150, 68, "solid", "white"), 
                              
                 rectangle(250, 160, "solid", "dark-blue")))))))))
+
+
+Her bruker jeg funksjonen overlay align som lager en liten del av flagget for vær bruk av overlay align, for eksempel så er den første linjen den nedre venstre røde delen av det norske flagget, mens neste del er den venstre topp delen, de neste er top å bunnen av den høyre røde delen, så bruker jeg
+ overlay align til å lage de hvite delene av flagget fortsatt vær for seg, helt til jeg lager den solide mørke blå rektangelet som fyller in resten av flagget mens overlay align gjør at de rektanglene som er laget med den funksjonen blir lagt over den blå rektangelet. 
